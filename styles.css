@@ -1,0 +1,264 @@
+h1,
+p {
+	text-align: center;
+}
+img {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.main-header {
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 55px;
+}
+.header-info {
+	text-align: left;
+	color: rgb(255, 148, 239);
+	positon: absolute;
+	left: 0;
+	padding: 0;
+	margin: 14px 14px 0px 14px;
+}
+.header-info a {
+	padding: 0;
+	text-decoration: none;
+	margin: 4px 14px 0px 14px;
+}
+.header-info a:hover {
+	background-color: transparent;
+}
+nav {
+	position: absolute;
+	right: 0;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 148, 239);
+	padding: 15px;
+	float: left;
+	margin: -10px 14px 0px 14px;
+	text-shadow: 0 0 10px rgba(255, 148, 239), 0 0 20px rgba(255, 148, 239), 0 0 30px rgba(255, 148, 239);
+}
+
+a:hover {
+	background-color: rgb(232, 232, 232);
+}
+.jumbotron {
+	margin-top: 5%;
+}
+.title {
+	font-style: italic;
+	color: rgb(0, 0, 0);
+}
+h1,
+h2,
+h3,
+p {
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.items {
+	display: flex;
+	justify-content: space-around;
+}
+.item {
+	display: flex;
+	flex-direction: column;
+	padding: 15px 15px 0px 7.5px;
+}
+.portrait1 {
+	width: 260px;
+	height: 350px;
+}
+.portrait3 {
+	width: 260px;
+	height: 350px;
+}
+.portrait4 {
+	width: 260px;
+	height: 350px;
+}
+.portrait5 {
+	width: 260px;
+	height: 350px;
+}
+
+/* .jumbotron img {
+	margin-left: 0px;
+}
+
+img {
+	margin-left: 10px;
+} */
+
+#products img {
+	margin-left: 10px;
+}
+
+img {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 5px 5px rgb(255, 173, 244);
+	opacity: 1;
+}
+.p1 {
+	border-width: 2.5px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px rgb(255, 255, 255);
+	opacity: 1;
+}
+.portrait1 {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 5px 5px rgb(255, 202, 248);
+	opacity: 1;
+}
+.portrait3 {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 5px 5px rgb(215, 95, 255);
+	opacity: 1;
+}
+.portrait4 {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 5px 5px rgb(109, 30, 255);
+	opacity: 1;
+}
+.portrait5 {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 5px 5px rgb(255, 145, 81);
+	opacity: 1;
+}
+
+img:hover {
+	opacity: 1;
+}
+body {
+	background-image: url("images/MUSUBU-Main-image1-min.webp");
+	background-size: cover;
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* background-position: center; */
+}
+.item {
+	margin: 10px;
+	background-color: gainsboro;
+}
+
+th {
+	color: white;
+	text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
+	background-color: rgb(255, 202, 248);
+}
+tr,
+th {
+	height: 50px;
+	text-align: center; /*horizontally*/
+	vertical-align: center; /*vertically*/
+}
+tr {
+	background-color: white;
+}
+table,
+tr,
+th,
+td {
+	border: 2px solid rgb(0, 0, 0);
+	border-collapse: collapse;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+th,
+td {
+	text-align: center;
+}
+tr:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+.table-main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.tab {
+	background-color: gainsboro;
+	width: 300px;
+	padding: 40px;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+h1.name {
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	color: black;
+}
+h2.price {
+	font-size: 38px;
+	color: black;
+}
+
+.list {
+	list-style-type: disc;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
+.list li {
+	margin-top: 20px;
+	color: black;
+}
+
+hr {
+	height: 7px;
+	width: 80%;
+	margin: auto;
+	background-color: rgb(219, 84, 75);
+	border: none;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+button {
+	background-color: rgba(219, 85, 75, 0.616);
+	border-radius: 8px;
+	color: white;
+	padding: 8px;
+	border: none;
+	font-size: 20pt;
+	align-items: center;
+}
+button:hover {
+	transform: scale(1.2, 1.2);
+	background-color: rgb(219, 85, 75);
+	cursor: pointer;
+}
