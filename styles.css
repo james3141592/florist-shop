@@ -2,6 +2,15 @@ h1,
 p {
 	text-align: center;
 }
+* {
+	font-family: "Dancing Script", cursive;
+}
+@media (max-width: 600px) {
+	* {
+		font-size: 2vw;
+		margin: 2px;
+	}
+}
 img {
 	width: 30%;
 	margin-left: auto;
@@ -19,15 +28,15 @@ img {
 .header-info {
 	text-align: left;
 	color: rgb(255, 148, 239);
-	positon: absolute;
+	position: absolute;
 	left: 0;
 	padding: 0;
-	margin: 14px 14px 0px 14px;
+	margin: 14px 14px 14px 14px;
 }
 .header-info a {
 	padding: 0;
 	text-decoration: none;
-	margin: 4px 14px 0px 14px;
+	margin: 0px 14px 0px 14px;
 }
 .header-info a:hover {
 	background-color: transparent;
@@ -36,6 +45,7 @@ nav {
 	position: absolute;
 	right: 0;
 	display: flex;
+	padding: 9.6px;
 }
 
 a {
@@ -74,18 +84,26 @@ p {
 	padding: 15px 15px 0px 7.5px;
 }
 .portrait1 {
+	max-width: 100%;
+	max-height: 350px;
 	width: 260px;
 	height: 350px;
 }
 .portrait3 {
+	max-width: 100%;
+	max-height: 350px;
 	width: 260px;
 	height: 350px;
 }
 .portrait4 {
+	max-width: 100%;
+	max-height: 350px;
 	width: 260px;
 	height: 350px;
 }
 .portrait5 {
+	max-width: 100%;
+	max-height: 100%;
 	width: 260px;
 	height: 350px;
 }
@@ -110,6 +128,8 @@ img {
 	opacity: 1;
 }
 .p1 {
+	max-width: 100%;
+	max-height: 100%;
 	border-width: 2.5px;
 	border-style: solid;
 	border-color: rgb(0, 0, 0);
@@ -215,6 +235,7 @@ tr:hover {
 	padding: 40px;
 	margin: 20px;
 	border-radius: 20px;
+	text-align: center;
 }
 
 h1.name {
@@ -255,10 +276,82 @@ button {
 	padding: 8px;
 	border: none;
 	font-size: 20pt;
-	align-items: center;
 }
 button:hover {
 	transform: scale(1.2, 1.2);
 	background-color: rgb(219, 85, 75);
 	cursor: pointer;
+}
+div.about {
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 135px;
+	margin-bottom: 75px;
+	background-color: blanchedalmond;
+	width: 80%;
+}
+
+.about {
+	text-align: left;
+	color: black;
+	padding: 50px;
+	width: 100%;
+}
+
+div.image-about {
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+img.about-us {
+	width: 350px;
+	max-width: 100%;
+	max-height: 350px;
+}
+footer {
+	background-color: rgb(255, 255, 255);
+}
+
+.main-footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.left-footer {
+	margin-right: auto;
+	margin-left: 40px;
+}
+
+.right-footer {
+	margin-left: auto;
+	margin-right: 40px;
+}
+
+.center-footer {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.info-left {
+	color: rgb(0, 0, 0);
+	text-align: left;
+	width: 100%;
+}
+
+.info-right {
+	color: rgb(0, 0, 0);
+	text-align: right;
+	width: 100%;
+	text-align: left;
+}
+
+.info-center {
+	color: rgb(0, 0, 0);
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+	border-top: 1px solid rgb(146, 168, 133);
 }
